@@ -1,0 +1,12 @@
+{
+  "name": "moxymind-monorepo",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "test:playwright": "npm --workspace packages/playwright test",
+    "test:cypress": "npm --workspace packages/cypress test",
+    "test:jest": "npm --workspace packages/jest test"
+  }
+}

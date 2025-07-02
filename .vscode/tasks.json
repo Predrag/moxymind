@@ -1,0 +1,33 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Install all dependencies",
+      "type": "shell",
+      "command": "npm install",
+      "group": "build",
+      "problemMatcher": []
+    },
+    {
+      "label": "Test Playwright",
+      "type": "shell",
+      "command": "cd packages/playwright && npm test",
+      "group": "test",
+      "problemMatcher": []
+    },
+    {
+      "label": "Test Cypress",
+      "type": "shell",
+      "command": "cd packages/cypress && npm test",
+      "group": "test",
+      "problemMatcher": []
+    },
+    {
+      "label": "Test Jest",
+      "type": "shell",
+      "command": "cd packages/jest && npm test",
+      "group": "test",
+      "problemMatcher": []
+    }
+  ]
+}

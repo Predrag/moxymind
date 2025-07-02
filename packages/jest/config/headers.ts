@@ -1,0 +1,1 @@
+export const headers = { 'x-api-key': 'reqres-free-v1', 'Content-Type': 'application/json' }
